@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		1106F66A2AE05C9700DAF65D /* SplitCheckAndTipCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F6692AE05C9700DAF65D /* SplitCheckAndTipCalculatorApp.swift */; };
 		1106F66C2AE05C9700DAF65D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F66B2AE05C9700DAF65D /* ContentView.swift */; };
-		1106F66E2AE05C9700DAF65D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F66D2AE05C9700DAF65D /* Item.swift */; };
 		1106F6702AE05C9800DAF65D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1106F66F2AE05C9800DAF65D /* Assets.xcassets */; };
 		1106F6732AE05C9800DAF65D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1106F6722AE05C9800DAF65D /* Preview Assets.xcassets */; };
+		1106F67A2AE05CC500DAF65D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106F6792AE05CC500DAF65D /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1106F6662AE05C9700DAF65D /* SplitCheckAndTipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitCheckAndTipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1106F6692AE05C9700DAF65D /* SplitCheckAndTipCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitCheckAndTipCalculatorApp.swift; sourceTree = "<group>"; };
 		1106F66B2AE05C9700DAF65D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1106F66D2AE05C9700DAF65D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1106F66F2AE05C9800DAF65D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1106F6722AE05C9800DAF65D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1106F6792AE05CC500DAF65D /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				1106F6692AE05C9700DAF65D /* SplitCheckAndTipCalculatorApp.swift */,
 				1106F66B2AE05C9700DAF65D /* ContentView.swift */,
-				1106F66D2AE05C9700DAF65D /* Item.swift */,
+				1106F6792AE05CC500DAF65D /* DataModel.swift */,
 				1106F66F2AE05C9800DAF65D /* Assets.xcassets */,
 				1106F6712AE05C9800DAF65D /* Preview Content */,
 			);
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1106F66C2AE05C9700DAF65D /* ContentView.swift in Sources */,
-				1106F66E2AE05C9700DAF65D /* Item.swift in Sources */,
+				1106F67A2AE05CC500DAF65D /* DataModel.swift in Sources */,
 				1106F66A2AE05C9700DAF65D /* SplitCheckAndTipCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
